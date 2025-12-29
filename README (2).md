@@ -1,36 +1,3 @@
-<think>
-**Cleaning up README content**
-
-The user wants to simplify their README by removing excessive symbols like 🎚️, keeping the content basic. They provided a mixed format that needs to be adjusted into markdown format for easy copying. I should retain a few emojis in headings but eliminate most within bullet points to enhance readability. 
-
-Additionally, I need to address formatting issues, such as ensuring the mermaid code block has proper closures and moving "Key idea: ..." outside of it. I'll prepare a clean README.md file reflecting these changes.
-
-**Polishing Markdown formatting**
-
-Okay, the user has pointed out several issues with their Markdown, such as missing headings like "Getting Started" that need to be formatted properly. There are also bullet lists that are not correctly formatted, especially items like "✅ OpenAI" appearing on separate lines.
-
-I’ll create a polished version of the Markdown. They want internal links, and while we have anchor links, we can use GitHub's automatic anchors with `<a id=...>`. For emojis, I’ll keep them limited to title and section headings and remove excess from bullet points, while possibly retaining a few in the Table of Contents.
-
-**Finalizing README content**
-
-The user indicated they want to simplify their README by keeping some basic icons, like 🤖 for the title and a few small emojis for section headings. For the Table of Contents, I'll keep it plain without emojis. 
-
-The sections might have icons like 🤖 Overview, ✨ Features, and others. I’ll remove emojis from bullet points and lists to cut down on excess, including the 🎚️ from customization point 2. I’ll also fix any formatting issues, ensure code blocks have correct language tags, and incorporate suggestions like the `.gitignore` file. Let's craft the final README!
-
-**Finalizing README details**
-
-I need to add disclaimers about provider support and mention that we have a `.env` file for environment variables, even though the code uses sidebar input. While the user didn't request changes beyond emojis, I’ll ensure the content remains intact and formatted correctly.
-
-I'll create the final Markdown version as a code block. We should keep the anchors for headings and use GitHub's auto anchors, but I must consider that emojis can cause mismatches. I can keep the user's existing HTML anchors for the TOC to ensure everything works properly.
-
-**Crafting the README structure**
-
-Alright, I'm organizing the README with the title and a short description. For the Table of Contents, I’ll use a numbered list in plain text while linking to anchors but consider removing emojis from TOC items to keep things clean. I can keep emojis in section headings, aligning with the user's desire for minimal clutter.
-
-I'll structure the sections with headings using the user-defined anchors. Within sections, I must remove emojis from bullet points while keeping it clear with tech stack, architecture diagrams, and lists as specified. 
-
-Finally, I’ll include a .gitignore suggestion in a code block and ensure the entire README content stays concise, adhering to the markdown format the user requested. Let’s do that!
-</think>```md
 # 🤖 Agentic RAG Assistant (LangGraph + LangChain + Streamlit + FAISS)
 
 A Streamlit app that implements an **agentic RAG** workflow: the LLM decides **when** to retrieve, **grades** retrieved context for relevance, **rewrites** the query if retrieval fails, and then **generates** an answer grounded in the retrieved sources.
